@@ -1,0 +1,126 @@
+<!DOCTYPE>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="../index.html">Home</a>
+  <a href="../news/news.html">News</a>
+  <a href="../projects/projects.html">Projects</a>
+  <a href="../contact/contact.html">Contact</a>
+  <div class="dropdown">
+	<button class="dropbtn">More</button>
+	<div class="dropdown-content">
+		<a href="../aims/aims.html">Aims</a>
+		<a href="../members/members.html">Members</a>
+    <a class="active" href="methods.html">Methods</a>
+    <a href="reagents.html">Reagents</a>
+		<a href="../css/background.html">Here's a cool picture</a>
+	</div>
+  </div>
+</div>  
+ 
+<div class="content">	
+  <h1>Methods</h1>
+	
+<ul>
+  <div class="member">	
+  <li>General Tissue Culture</li>
+	</div>
+	
+  <div class="member">
+  <li><a href="Bradford Protocol pdf.pdf" target="_blank">Bradford Protocol</a></li>
+	</div>
+
+  <div class="member">
+	  <li>Western Blotting
+		  <ul><li>Make SDS gel (7-12%)</li>
+			  <li>Load samples in MKLB with 5X loading buffer added</li>
+			  <li>Run overnight ~10mA overnight</li>
+			  <li>Transfer to Nitrocellulose paper at 400mA for 3-4hr</li>
+			  <li>Block for 1hr in Blocking buffer</li>
+			  <li>Add Primary Ab (often at 1000x), place at 4C on rocker overnight</li>
+			  <li>Wash 3x for 5min each in TBST</li>
+			  <li>Place in Blocking buffer with Secondary Ab (2000x) on rocker for 1hr</li>
+			  <li>Repeat wash step</li>
+			  <li>Incubate with Classico or Crescendo reagent for 2-3min</li>
+			  <li>Place in clear sleeve and in dark room, place film over blot for 10s to 10min, depending on intensity</li>
+			  <li>If probing for another Ab, strip in Stripping buffer at 50C for 30min</li>
+			  <li>Wash 3x for 15min each</li>
+			  <li>Repeat blocking step and proceed as before</li>
+		  </ul>
+	  </li>
+	</div>
+	
+  <div class="member">	
+  <li>Quantitative PCR</li>
+	</div>
+	
+  <div class="member">
+  <li><a href="maxima rt kit.pdf" target="_blank">Reverse Transcription PCR (Thermo Maxima)</a></li>
+	</div>
+	
+  <div class="member">	
+  <li>Bacterial Transfection and Plasmid Prep</li>
+	</div>
+	
+  <div class="member">	
+  <li>Lentiviral and shRNA Transfection</li>
+	</div>
+	
+  <div class="member"><li>In-Vivo
+    <ul>
+      <li>Tumor Initiation</li>
+      <li>Treatment and Measurement</li>
+      <li>Tumore Collection</li>
+    </ul>
+  </li>
+	</div>
+  <div class="member">
+	  <li>Assays
+    <ul>
+      <li>Enzyme-linked Immunosorbent Assay (ELISA)</li>
+      <li>Luciferase reporter assay</li>
+	    <li><a href="cyquant manual.pdf" target="_blank">Cyquant Growth Assay</a></li>
+      <li>Clonogenic Growth Assay</li>
+    </ul>
+  </li>
+	</div>
+  	
+  <div class="member">	
+  <li>Bioinformatics</li>
+	</div>
+	
+  <div class="member">	
+  <li>Synthetic Lethal Screening</li>
+	</div>
+	
+  <div class="member">	
+  <li>Statistical Analysis</li>
+	</div>
+	
+  <div class="member">	
+  <li>Troubleshooting and Quality Assurance</li>
+	</div>
+
+	</div>	
+	
+<script>
+window.onscroll = function() {navLock()};
+var navbar = document.getElementById("myTopnav");
+var sticky = navbar.offsetTop;
+function navLock() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+	
+  </body>  
+</html>
