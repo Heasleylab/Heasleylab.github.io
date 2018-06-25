@@ -1,0 +1,174 @@
+body{
+    text-align: center; 
+    margin: 0;
+    background-color: #02d1d8;
+    background: linear-gradient(to bottom right, #02d1d8, #2bd102) fixed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div.member {
+    left: 5%;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    text-align: justify;
+    width: 35%;
+    padding: 20px;
+    border-style: double;
+    border-color: white;
+    border-width: 6px;
+    z-index: 0;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: magenta;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #02d1d8;
+  background: linear-gradient(to right, #02d1d8, #2bd102);	
+  z-index: 1;
+}
+
+.topnav a {
+  float:left;
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.dropdown { 
+    float: left;   
+    display: inline-block;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    font-family: inherit;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: fixed;
+}
+    
+img.lab {
+    border-radius: 10px;
+    max-width: 75%;
+    height: auto;
+}
+
+.accordion {
+    background-color: inherit;
+    border-radius: 10px;	
+    display: block;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    left: 5%;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 45%;
+    text-align: justify;
+    border-width: 8px;
+    border-style: double;
+    border-color: white;
+    z-index: 0;
+    outline: none;
+}
+
+.active, .accordion:hover {
+	background-color: #00d1f2;
+}
+
+.panel {
+    padding: 8px 24px;
+    background-color: inherit;
+    border-radius: 10px;	
+    overflow: hidden;
+    max-height: 0;
+    display: none;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    outline: none;
+    left: 5%;
+    text-align: justify;
+    position: relative;
+    width: 45%;
+    transition: max-height 0.25s ease-out;
+    
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 50px;
+}
