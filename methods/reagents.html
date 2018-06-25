@@ -1,0 +1,170 @@
+<!DOCTYPE>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<link rel="stylesheet" href="../css/style.css">
+  
+
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+  <a href="../index.html">Home</a>	
+  <a href="../news/news.html">News</a>
+  <a href="../projects/projects.html">Projects</a>
+  <a href="../contact/contact.html">Contact</a>
+  <div class="dropdown">
+	<button class="dropbtn">More</button>
+	<div class="dropdown-content">
+		<a href="../aims/aims.html">Aims</a>
+		<a href="../members/members.html">Members</a>
+    <a href="methods.html">Methods</a>
+    <a class="active" href="reagents.html">Reagents</a>
+		<a href="../css/background.html">Here's a cool picture</a>
+	</div>
+  </div>
+</div>
+	
+<div class="content">	
+	<h1>Reagents</h1>
+<ul>
+	
+<button class="accordion">10x SDS</button>
+  <div class="panel">
+	  <ul><li>121.1g Tris-Base</li>
+		<li>576.7g Glycine</li>
+		  <li>40g SDS</li>
+		  <li>Bring to 4L DI Water</li>
+		  <li>Adjust pH to 8.63</li>
+	  </ul>
+	</div>
+	
+<button class="accordion">10x TGE</button>	
+  <div class="panel">	
+	  <li>???</li>
+	</div>
+	
+<button class="accordion">DMEM, 5% FBS</button>
+	<div class="panel">
+		<ul><li>134.9g Dulbecco's Modified Eagle's Medium (powder)</li>
+			<li>500mL FBS</li>
+			<li>100ml 100x Streptomycin</li>
+			<li>37g NaHCO<sub>3</sub></li>
+			<li>Bring to 10L in ddH<sub>2</sub>O</li>
+			<li>Filter through 0.2uM sterile filter</li>
+		</ul>
+	</div>
+			
+<button class="accordion">RPMI, 5% FBS</button>
+<div class="panel">
+	<ul><li>103.92g RPMI medium 1640 (powder)</li>
+		<li>500mL FBS</li>
+		<li>100mL 100x Streptomycin</li>
+		<li>20g NaHCO<sub>3</sub></li>
+		<li>Bring to 10L in ddH<sub>2</sub>O</li>
+		<li>Filter through 0.2uM sterile filter</li>
+	</ul>
+	</div>
+	
+<button class="accordion">DMEM-F12 Media, 5% FBS</button>	
+  <div class="panel">
+	  <ul><li></li>
+	  </ul>
+	</div>
+	
+<button class="accordion">MOC Media, 5% FBS</button>	
+  <div class="panel">
+	  <ul><li>626mL IMDM</li>
+		  <li>313mL Nutrient mixture</li>
+		  <li>50mL FBS</li>
+		  <li>10mL 100x Pen/Strep</li>
+		  <li>500uL 10mg/mL Insulin</li>
+		  <li>40uL 1mg/mL Hydrocortisone</li>
+		  <li>35uL 100ng/uL EGF</li>
+		  <li>Fitler through 0.2uM sterile filter</li>
+	  </ul>
+	</div>
+	
+<button class="accordion">2x Freezing Buffer (for storing cells)</button>	
+  <div class="panel">
+	  <ul><li>80mL FBS</li>
+		  <li>20mL DMSO</li>
+		  <li>Filter through 0.2uM sterile filter</li>
+	  </ul>
+	</div>
+
+<button class="accordion">Western Blot buffers</button>	
+  <div class="panel">	
+    <li>Running Buffer</li>
+	    <li>TBST</li>	    
+    <li>Transfer Buffer</li>
+    <li>Stripping Buffer</li>
+    <li>Blocking Buffer
+	    <ul><li>3g BSA powder</li>
+		    <li>100mL TBST</li>
+		    <li>Vacuum filter through 0.2uM sterile filter</li>
+	    </ul>
+	  </li>
+	</div>
+	
+<button class="accordion">Map Kinase Lysis Buffer (MKLB)</button>
+	<div class="panel">
+		<ul><li>1x Protease Inhibitor Cocktail (Sigma)</li>
+			<li>0.5% TX-100</li>
+			<li>50mM b-GP</li>
+			<li>2mM MgCl<sub>2</sub></li>
+			<li>0.1M Na<sub>3</sub>VO<sub>4</sub></li>
+			<li>1mM EGTA</li>
+			<li>1mM DTT</li>
+			<li>1x Aprotinin</li>
+			<li>0.1mM PMSF</li>
+			<li>0.3M NaCl</li>
+			<li>Adjust pH to 7.2</li>
+		</ul>
+	</div>
+  <div class="member">	
+  <li>5x Loading Buffer</li>
+	</div>
+  <div class="member">	
+  <li>LB plates</li> 
+	</div>
+  <div class="member">
+  <li>Antibiotics</li>
+	</div>
+  <div class="member">
+  <li>Drug stocks</li>
+	</div>  
+</ul>
+</div>	
+	
+<script>
+window.onscroll = function() {navLock()};
+var navbar = document.getElementById("myTopnav");
+var sticky = navbar.offsetTop;
+function navLock() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+	
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";	    
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}		
+</script>
+</body>
+</html>
