@@ -35,7 +35,17 @@ div.member {
     z-index: 0;
 }
 
-.memberphoto{
+img.memberimg{
+	border-radius: 6px;
+	height: auto;
+	position: relative;
+	right: 0;
+}
+
+img.lab {
+    border-radius: 10px;
+    max-width: 75%;
+    height: auto;
 }
 
 a:link {
@@ -128,12 +138,6 @@ a:active {
 .dropdown:hover .dropdown-content {
     display: block;
     position: fixed;
-}
-    
-img.lab {
-    border-radius: 10px;
-    max-width: 75%;
-    height: auto;
 }
 
 .accordion {
