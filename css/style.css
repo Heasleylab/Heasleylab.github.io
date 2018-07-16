@@ -178,7 +178,7 @@ img.lab {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	top-border: 1px black solid;
+	border-top: 1px black solid;
 	background-color: inherit;
 	color: white;
 	text-align: center;
