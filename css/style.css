@@ -173,3 +173,12 @@ img.lab {
 .sticky + .content {
   padding-top: 50px;
 }
+
+.footer {
+	bottom: 0;
+	width: 100%;
+	top-border: 1px black solid;
+	background-color: inherit;
+	color: white;
+}	
+	
