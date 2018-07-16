@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-color: #02d1d8;
     background: linear-gradient(to bottom right, #02d1d8, #2bd102) fixed;
+    padding-bottom: 10px;	
 }
 
 * {
@@ -183,5 +184,6 @@ img.lab {
 	color: white;
 	text-align: center;
 	position: absolute;
+	height: 10px;
 }	
 	
