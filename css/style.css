@@ -35,6 +35,9 @@ div.member {
     z-index: 0;
 }
 
+.memberphoto{
+}
+
 a:link {
     color: white;
     background-color: transparent;
