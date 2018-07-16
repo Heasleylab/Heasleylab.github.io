@@ -180,5 +180,7 @@ img.lab {
 	top-border: 1px black solid;
 	background-color: inherit;
 	color: white;
+	text-align: center;
+	position: relative;
 }	
 	
