@@ -43,6 +43,7 @@ img.memberimg{
 	border-radius: 6px;
 	max-width: 25%;
 	height: auto;
+	max-height: 100%;
 	position: absolute;
 	top: 0;
 	right: 0;
