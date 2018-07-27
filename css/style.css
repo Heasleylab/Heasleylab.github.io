@@ -38,7 +38,8 @@ div.member {
 img.memberimg{
 	border-radius: 6px;
 	height: auto;
-	position: relative;
+	position: absolute;
+	top: 0;
 	right: 0;
 }
 
