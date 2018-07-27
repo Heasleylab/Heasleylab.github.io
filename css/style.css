@@ -27,7 +27,7 @@ div.member {
     display: block;
     position: relative;
     text-align: justify;
-    width: 69%;
+    width: 85%;
     padding: 20px;
     border-style: double;
     border-color: white;
@@ -46,7 +46,7 @@ img.memberimg{
 	position: absolute;
 	top: 0;
 	right: 0;
-	margin-left: 5px;	
+	margin-left: 1%;	
 }
 
 img.lab {
