@@ -65,7 +65,7 @@ window.onload=function(){
 		for(var i=0; i<trail.length; i++){
 			ctx.fillRect(trail[i].x*gs, trail[i].y*gs, gs-2, gs-2);
 			if(trail[i].x==px && trail[i].y==py){
-				tail = 5;
+				trail = 5;
 			}
 		}
 		trail.push({x:px, y:py});
@@ -73,7 +73,7 @@ window.onload=function(){
 			trail.shift();
 		}
 		if(ax==px && ay==py){
-			tail++;
+			trail++;
 			ax=Math.floor(Math.random()*tc);
 			ay=Math.floor(Math.random()*tc);
 		}
