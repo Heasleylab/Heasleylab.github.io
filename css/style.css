@@ -35,19 +35,7 @@ div.member {
     z-index: 0;
 }
 
-div.pubs { 
-    overflow: hidden;
-    margin: auto;
-    display: block;
-    position: relative;
-    text-align: justify;
-    width: 75%;
-    padding: 20px;
-    border-style: double;
-    border-color: white;
-    border-width: 6px;
-    z-index: 0;
-}
+
 
 p.member {
 	max-width: 74%;
