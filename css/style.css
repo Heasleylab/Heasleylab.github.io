@@ -37,6 +37,7 @@ div.member {
 
 div.pubbox {
     overflow: hidden;
+    margin: auto;
     display: block;
     position: relative;
     text-align: justify;
