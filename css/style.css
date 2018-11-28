@@ -62,7 +62,8 @@ img.memberimg{
 	position: absolute;
 	top: 0;
 	right: 0;
-	margin-left: 1%;	
+	margin-left: 1%;
+	overflow: auto;
 }
 
 img.lab {
@@ -103,7 +104,7 @@ a:active {
 }
 
 .topnav a {
-  float:left;
+  margin: auto;
   display: block;
   color: black;
   padding: 14px 16px;
