@@ -2,7 +2,7 @@ body{
     text-align: center; 
     margin: 0;
     background-color: #02d1d8;
-    background: linear-gradient(to bottom right, #02d1d8, #2bd102) fixed;
+    background: white;
     min-height: 100%;
     position: relative;
 }
@@ -30,7 +30,7 @@ div.member {
     width: 85%;
     padding: 20px;
     border-style: double;
-    border-color: white;
+    border-color: black;
     border-width: 6px;
     z-index: 0;
 }
@@ -97,7 +97,7 @@ a:active {
 .topnav {
   overflow: hidden;
   background-color: #02d1d8;
-  background: linear-gradient(to right, #02d1d8, #2bd102);	
+  background: white;	
   z-index: 1;
   border-bottom: 1px black solid;
 }
@@ -105,7 +105,7 @@ a:active {
 .topnav a {
   float:left;
   display: block;
-  color: white;
+  color: black;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -178,7 +178,7 @@ a:active {
     text-align: justify;
     border-width: 8px;
     border-style: double;
-    border-color: white;
+    border-color: black;
     z-index: 0;
     outline: none;
 }
@@ -194,7 +194,7 @@ a:active {
     overflow: hidden;
     max-height: 0;
     display: none;
-    border-color: white;
+    border-color: black;
     border-style: solid;
     border-width: 2px;
     outline: none;
