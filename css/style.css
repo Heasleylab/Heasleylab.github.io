@@ -44,7 +44,7 @@ div.pubbox {
     width: 75%;
     padding: 20px;
     border-style: solid;
-    border-color: white;
+    border-color: black;
     border-width: 6px;
     z-index: 0;
 }
