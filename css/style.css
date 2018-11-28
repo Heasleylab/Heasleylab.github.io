@@ -22,7 +22,7 @@ body::after{
 }
 
 div.member {
-    left: 5%;
+    margin: auto;
     overflow: hidden;
     display: block;
     position: relative;
