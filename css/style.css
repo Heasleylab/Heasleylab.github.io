@@ -52,7 +52,7 @@ div.pubbox {
 
 p.member {
 	max-width: 60%;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 img.memberimg{
@@ -85,7 +85,7 @@ a:visited {
 }
 
 a:hover {
-    color: white;
+    color: #00cc00;
     background-color: #b3ecff;
     text-decoration: underline;
 }
