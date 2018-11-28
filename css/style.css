@@ -41,6 +41,7 @@ div.pubbox {
     display: block;
     position: relative;
     text-align: justify;
+	font-size: 20px;
     width: 55%;
     padding: 25px;
     border-style: solid;
