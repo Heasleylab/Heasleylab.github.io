@@ -189,7 +189,7 @@ a:active {
 }
 
 .panel {
-    padding: 8px 24px;
+    padding: 12px 24px;
     background-color: inherit;
     border-radius: 10px;	
     overflow: hidden;
