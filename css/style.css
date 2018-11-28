@@ -219,7 +219,7 @@ a:active {
 }
 
 .sticky + .content {
-  padding-top: 50px;
+  padding-top: 51px;
 }
 
 .footer {
