@@ -27,7 +27,7 @@ div.member {
     display: block;
     position: relative;
     text-align: justify;
-    width: 65%;
+    width: 60%;
     padding: 20px;
     border-style: solid;
     border-color: black;
@@ -41,7 +41,7 @@ div.pubbox {
     display: block;
     position: relative;
     text-align: justify;
-    width: 65%;
+    width: 40%;
     padding: 25px;
     border-style: solid;
     border-color: black;
