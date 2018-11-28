@@ -50,6 +50,9 @@ div.pubbox {
     z-index: 0;
 }
 
+h3{
+	text-decoration: underline;
+}
 
 p.member {
 	max-width: 60%;
