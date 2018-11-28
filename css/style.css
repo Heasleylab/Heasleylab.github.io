@@ -42,6 +42,7 @@ div.pubbox {
     position: relative;
     text-align: justify;
     width: 55%;
+	font-size: 110%;
     padding: 25px;
     border-style: solid;
     border-color: black;
@@ -52,7 +53,6 @@ div.pubbox {
 
 p.member {
 	max-width: 60%;
-	font-size: 30px;
 }
 
 img.memberimg{
