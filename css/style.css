@@ -105,7 +105,7 @@ a:active {
 
 .topnav a {
   margin: auto;
-  display: block;
+  display: inline-block;
   color: black;
   padding: 14px 16px;
   text-decoration: none;
