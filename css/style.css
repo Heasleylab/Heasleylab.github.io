@@ -79,14 +79,14 @@ a:link {
     text-decoration: none;
 }
 a:visited {
-    color: blue;
+    color: #003399;
     background-color: transparent;
     text-decoration: none;
 }
 
 a:hover {
     color: white;
-    background-color: blue;
+    background-color: #b3ecff;
     text-decoration: underline;
 }
 
