@@ -56,6 +56,8 @@ h3{
 
 p.member {
 	max-width: 60%;
+	display: inline-block;
+	overflow: hidden;
 }
 
 img.memberimg{
