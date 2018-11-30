@@ -39,7 +39,7 @@ div.membertop {
     display: block;
     border: 1px solid green;
     padding: 8px ;
-	max-height: 30%;
+    height: 40%;
 }
 
 div.membertitle {
@@ -77,7 +77,7 @@ div.pubbox {
     position: relative;
     text-align: justify;
     width: 55%;
-	font-size: 110%;
+    font-size: 110%;
     padding: 25px;
     border-style: solid;
     border-color: black;
