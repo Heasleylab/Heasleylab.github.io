@@ -35,6 +35,40 @@ div.member {
     z-index: 0;
 }
 
+div.membertop {
+    display: block;
+    border: 1px solid green;
+    padding: 8px ;
+}
+
+div.membertitle {
+    display: inline-block;
+    max-width: 70%;
+    border: 1px solid magenta;
+    padding: 8px;
+    max-height: 30%;
+    overflow: hidden;
+}
+
+div.memberpic {
+    border: 1px solid red;
+    display: inline-block;
+    padding: 8px;
+    float: right;
+    max-width: 30%;
+    position: relative;
+    max-height: 30%;
+    overflow: hidden;
+}
+
+div.memberdesc {
+    border: 1px solid blue;
+    display: block;
+    padding: 8px;
+    clear: left;
+}
+
+
 div.pubbox {
     overflow: hidden;
     margin: auto;
