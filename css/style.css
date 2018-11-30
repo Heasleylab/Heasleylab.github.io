@@ -39,6 +39,7 @@ div.membertop {
     display: block;
     border: 1px solid green;
     padding: 8px ;
+	max-height: 30%;
 }
 
 div.membertitle {
@@ -46,7 +47,7 @@ div.membertitle {
     max-width: 70%;
     border: 1px solid magenta;
     padding: 8px;
-    max-height: 30%;
+    max-height: 100%;
     overflow: hidden;
 }
 
@@ -57,7 +58,7 @@ div.memberpic {
     float: right;
     max-width: 30%;
     position: relative;
-    max-height: 30%;
+    max-height: 100%;
     overflow: hidden;
 }
 
