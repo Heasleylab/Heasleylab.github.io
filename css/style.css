@@ -96,7 +96,7 @@ p.member {
 
 img.memberimg{
 	border-radius: 6px;
-	max-width: 25%;
+	max-width: 100%;
 	height: auto;
 	max-height: 100%;
 	position: absolute;
