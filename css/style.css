@@ -98,7 +98,7 @@ img.lab {
 a:link {
     color: black;
     background-color: transparent;
-    text-decoration: none;
+    text-decoration: #005ce6;
 }
 a:visited {
     color: #003399;
