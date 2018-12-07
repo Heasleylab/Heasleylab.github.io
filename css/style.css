@@ -22,53 +22,38 @@ body::after{
 }
 
 div.member {
-    margin: auto;
-    overflow: hidden;
-    display: block;
-    position: relative;
-    text-align: justify;
-    width: 60%;
-    padding: 10px 20px;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
+    width: 30%;
+    text-align: left;
+    margin-bottom: 16px;
+    display: inline-block;
     z-index: 0;
 }
 
-div.membertop {
-    display: block;
-    border: 1px solid green;
-    padding: 8px ;
-    height: 40%;
+@media screen and (max-width: 650px) {
+  div.member {
+    width: 90%;
+  }
 }
 
-div.membertitle {
-    display: inline-block;
-    max-width: 70%;
-    border: 1px solid magenta;
-    padding: 8px;
-    max-height: 100%;
-    overflow: hidden;
+div.info {
+  padding: 0 8px;
 }
 
-div.memberpic {
-    border: 1px solid red;
-    display: inline-block;
-    padding: 8px;
-    float: right;
-    max-width: 30%;
-    position: relative;
-    max-height: 100%;
-    overflow: hidden;
+div.info::after, div.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-div.memberdesc {
-    border: 1px solid blue;
-    display: block;
-    padding: 8px;
-    clear: left;
+img.mimg {
+	width: 100%;
 }
-
+div.member:hover #lynn{
+	box-shadow: 0 4px 12px 10px rgba(0, 200, 0, 0.2);
+    }
+div.member:hover #trista{
+	box-shadow: 0 4px 12px 10px rgba(0, 0, 200, 0.2);
+    } 
 
 div.pubbox {
     overflow: hidden;
@@ -85,26 +70,8 @@ div.pubbox {
     z-index: 0;
 }
 
-h3{
+h3:hover{
 	text-decoration: underline;
-}
-
-p.member {
-	max-width: 60%;
-	display: inline-block;
-	overflow: hidden;
-}
-
-img.memberimg{
-	border-radius: 6px;
-	max-width: 100%;
-	height: auto;
-	max-height: 100%;
-	position: absolute;
-	top: 0;
-	right: 0;
-	margin-left: 1%;
-	overflow: auto;
 }
 
 img.lab {
