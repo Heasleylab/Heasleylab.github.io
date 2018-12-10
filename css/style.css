@@ -215,6 +215,7 @@ a:active {
 .method {
 	background-color: inherit;
 	border: 2px solid black;
+	display: block;
 	padding: 8px;
 	margin: auto;
 	max-width: 40%;
