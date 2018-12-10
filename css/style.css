@@ -212,6 +212,14 @@ a:active {
 	background-color: #00d1f2;
 }
 
+.method {
+	background-color: inherit;
+	border: 2px solid black;
+	padding: 8px;
+	margin: auto;
+	max-width: 40%;
+}
+
 .panel {
     padding: 12px 24px;
     background-color: inherit;
