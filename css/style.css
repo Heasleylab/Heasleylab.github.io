@@ -191,7 +191,7 @@ a:active {
 .accordion {
     background-color: inherit;
     border-radius: 6px;	
-    display: inline-block;
+    display: block;
     position: relative;
     font-size: inherit;
     font-family: inherit;
