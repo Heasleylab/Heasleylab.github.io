@@ -219,18 +219,19 @@ div.method {
 	text-align: justify;
 }
 
-.reagent {
+div.reagent {
 	border: 1px solid red;
+	display: block;
 }
 
-.column1 {
+div.column1 {
 	display: inline-block;
     width: 40%;
-    border: 1px solid blue;
+    border: none;
     margin-left: 10%;
 }
 
-.column2 {
+div.column2 {
 	display: inline-block;
     width: 40%;
     border: 2px solid green;
