@@ -191,7 +191,7 @@ a:active {
 .accordion {
     background-color: inherit;
     border-radius: 10px;	
-    display: block;
+    display: inline-block;
     position: relative;
     font-size: inherit;
     font-family: inherit;
@@ -209,7 +209,7 @@ a:active {
 }
 
 .active, .accordion:hover {
-	background-color: #00d1f2;
+	background-color: #bfdfff;
 }
 
 div.method {
