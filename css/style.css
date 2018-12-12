@@ -190,16 +190,15 @@ a:active {
 
 .accordion {
     background-color: inherit;
-    border-radius: 6px;	
+    border-radius: 4px;	
     display: block;
     position: relative;
     font-size: inherit;
     font-family: inherit;
-    left: 5%;
     color: #444;
     cursor: pointer;
-    padding: 18px;
-    width: 45%;
+    padding: 10px;
+    width: 100%;
     text-align: justify;
     border: 4px solid black;
     z-index: 0;
@@ -220,10 +219,27 @@ div.method {
 	text-align: justify;
 }
 
+.reagent {
+	border: 1px solid red;
+}
+
+.column1 {
+	display: inline-block;
+    width: 40%;
+    border: 1px solid blue;
+    margin-left: 10%;
+}
+
+.column2 {
+	display: inline-block;
+    width: 40%;
+    border: 2px solid green;
+    position: absolute;
+}
+
 .panel {
-    padding: 12px 24px;
     background-color: inherit;
-    border-radius: 6px;	
+    border-radius: 4px;	
     overflow: hidden;
     max-height: 0;
     display: none;
@@ -231,10 +247,8 @@ div.method {
     border-style: solid;
     border-width: 2px;
     outline: none;
-    left: 5%;
     text-align: justify;
     position: relative;
-    width: 40%;
     transition: max-height 0.25s ease-out;
     
 }
