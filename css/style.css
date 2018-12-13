@@ -220,22 +220,27 @@ div.method {
 }
 
 div.reagent {
-	border: 1px solid red;
+	border: 2px solid red;
 	display: block;
+	padding: 1px;
 }
 
 div.column1 {
-	display: inline-block;
+    display: inline-block;
     width: 40%;
-    border: none;
-    margin-left: 10%;
+    border: 2px solid green;
+    padding: 2px;
+    left: 8%;
+    position: absolute;
 }
 
 div.column2 {
-	display: inline-block;
+    display: inline-block;
     width: 40%;
-    border: 2px solid green;
+    border: 2px solid blue;
+    padding: 2px;
     position: absolute;
+    right: 8%;
 }
 
 .panel {
