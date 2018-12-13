@@ -245,6 +245,7 @@ div.column2 {
 
 .panel {
     background-color: inherit;
+    padding: 8px;
     border-radius: 4px;	
     overflow: hidden;
     max-height: 0;
