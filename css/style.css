@@ -277,6 +277,6 @@ div.column2 {
 	background-color: inherit;
 	color: black;
 	text-align: center;
-	position: absolute;
+	position: fixed;
 }	
 	
