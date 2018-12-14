@@ -70,14 +70,15 @@ div.member:hover #trista{
 div.member:hover #natalia{
 	box-shadow: 0 4px 12px 10px rgba(0, 150, 200, 0.2);
     }
-div.member:hover #jake{
-	box-shadow: 0 4px 12px 10px rgba(125, 0, 200, 0.2);
-    }
 div.member:hover #sean{
 	box-shadow: 0 4px 12px 10px rgba(0, 200, 200, 0.2);
     }
 div.member:hover #dan{
 	box-shadow: 0 4px 12px 10px rgba(200, 0, 50, 0.2);
+    }
+
+div.alumni:hover #jake{
+	box-shadow: 0 4px 12px 10px rgba(125, 0, 200, 0.2);
     }
 
 div.pubbox {
