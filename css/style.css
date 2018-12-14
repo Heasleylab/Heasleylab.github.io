@@ -234,7 +234,7 @@ div.method {
 }
 
 div.reagent {
-	border: 2px solid red;
+	border: none;
 	display: block;
 	padding: 1px;
 }
@@ -242,7 +242,7 @@ div.reagent {
 div.column1 {
     display: inline-block;
     width: 40%;
-    border: 2px solid green;
+    border: none;
     padding: 2px;
     left: 8%;
     position: absolute;
@@ -251,14 +251,14 @@ div.column1 {
 div.column2 {
     display: inline-block;
     width: 40%;
-    border: 2px solid blue;
+    border: none;
     padding: 2px;
     position: absolute;
     right: 8%;
 }
 
 .panel {
-    background-color: inherit;
+    background-color: #bfdfff;
     padding: 8px;
     border-radius: 4px;	
     overflow: hidden;
