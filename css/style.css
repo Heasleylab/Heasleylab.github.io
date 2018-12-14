@@ -275,7 +275,7 @@ div.column2 {
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: inherit;
   border-collapse: collapse;
   width: 100%
   z-index: 2;
