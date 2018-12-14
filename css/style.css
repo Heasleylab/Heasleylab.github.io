@@ -214,7 +214,7 @@ a:active {
     padding: 10px;
     width: 100%;
     text-align: justify;
-    border: 4px solid black;
+    border: 3px solid black;
     z-index: 0;
     outline: none;
 }
